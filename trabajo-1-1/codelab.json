@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-11-15T10:35:45+01:00",
+  "id": "trabajo-1-1",
+  "duration": 15,
+  "title": "Trabajo 1.1",
+  "summary": "primera prueba codelab",
+  "source": "trabajo1.1/nuevo1.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/alejandrosanchezman/hardening/issues",
+  "url": "trabajo-1-1"
+}
