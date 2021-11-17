@@ -1,0 +1,99 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Bios emulador</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="Bios-pc-2"
+                  title="Bios emulador"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Guia Bios emulada" duration="10">
+        <h2 is-upgraded>Guia para control de BIOS</h2>
+<p>Para comenzar con esta guia deberemos iniciar ó reiniciar el pc<br>una vez estemos reiniciando para poder acceder de forma directa a la bios pulsaremos repetidamente f12.</p>
+<p class="image-container"><img alt="bios2-1" src="img\bbbce7c3394e371b.png"></p>
+<p>la primera parte sobre la que nos vamos a centrar en la bios es la addicion de una contraseña de usuario.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Contraseñas de usuarios" duration="10">
+        <h2 is-upgraded>Contraseña de usuario o power-On</h2>
+<p>Una vez dentro de la bios nos dirigimos al apartado de seguridad</p>
+<p class="image-container"><img alt="bios2-3" src="img\2c8a1cfa53232527.png"></p>
+<p>una vez alli nos movemos hasta el apartado de Power-on password para añadir una contraseña para el usuario como se puede comprobar en la siguien imagen.</p>
+<p class="image-container"><img alt="bios2-2" src="img\4fcbce4675283a2c.png"></p>
+<h2 is-upgraded>Contraseña de Administrador</h2>
+<p>Si continuamos  en el mismo segmento podremos cambiar la contraseña del administrador.</p>
+<p class="image-container"><img alt="bios2-4" src="img\db8b0e0321676575.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Arranques Bios emulada" duration="5">
+        <h2 is-upgraded>Arranques externos</h2>
+<p>para poder realizar los cambios necesarios para que no nos puedan introducir un dispositivo externo a modo de arranque  nos dirigiremos hasta la seccion de devices en la bios y buscaremos la seccion de network para deshabilitar el pxe.</p>
+<p class="image-container"><img alt="bios2-5" src="img\c380ec50d0aba941.png"></p>
+<h2 is-upgraded>Orden de arranque</h2>
+<p>el orden de arranque lo podremos modificar desde la seccion de startup una vez alli nos dirigiremos a primary boot sequence.</p>
+<p class="image-container"><img alt="bios2-6" src="img\c755b7164f0efdf.png"></p>
+<p>para poder ordenar los dispositivos que checkeara en busca de un sistema para arrancar.</p>
+<ul>
+<li>normalmente los dispositivos estan ordenados de tal manera que  primero comprueba el  lector de disco y si no encuentra un elemento que cargar pasaria a la siguiente opcion la cual normalmente es el primer HDD donde se encontraria el sistema operativo.(este sistema virtual no permite enseñar los dispositivos de carga porque son inexistentes).</li>
+</ul>
+<p class="image-container"><img alt="bios2-7" src="img\2cee3cbe58886baa.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Opciones de seguridad" duration="7">
+        <h2 is-upgraded>Otras opciones de seguridad</h2>
+<p>A continuacion vamos a añadir otras opciones de seguridad que aparecen en la bios del sistema.</p>
+<ul>
+<li>contraseñas tanto de administrador como de usuario.</li>
+</ul>
+<p class="image-container"><img alt="bios2-8" src="img\a26c38156c9e1c16.png"></p>
+<ul>
+<li>update del firmware de la bios para mantenerla siempre actualiza y evitar vulnerabilidades.</li>
+</ul>
+<p class="image-container"><img alt="bios2-9" src="img\16fe4a011958075.png"></p>
+<ul>
+<li>secure boot que nos permite evitar el funcionamiento de otro software no firmado durante el arranque.</li>
+</ul>
+<p class="image-container"><img alt="bios2-10" src="img\dae9ce5fffc7e3ab.png"></p>
+<ul>
+<li>device guard el cual añade restricciones para evitar problemas con malware  en los dispositivos.</li>
+</ul>
+<p class="image-container"><img alt="bios2-11" src="img\14eb6f933fb1c5c.png"></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>
