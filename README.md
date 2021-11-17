@@ -1,2 +1,2 @@
 # Trabajos
-[Bios-pc-1](https://alejandrosanchezman.github.io/hardening/bios1)
+[Bios-pc-1](https://github.com/alejandrosanchezman/hardening/blob/main/Bios-pc-1/index.html)
