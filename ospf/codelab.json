@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-01-04T14:09:04+01:00",
+  "id": "OSPF",
+  "duration": 35,
+  "title": "Configuración OSPF",
+  "summary": "onfiguración OSPF",
+  "source": "ospf.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "OSPF"
+}
